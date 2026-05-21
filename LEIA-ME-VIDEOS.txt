@@ -1,0 +1,14 @@
+Correção dos vídeos embutidos:
+
+- A página continua igual visualmente.
+- Os iframes agora são criados por JavaScript usando o embed oficial do YouTube.
+- Foi adicionado origin e widget_referrer automaticamente com a origem real do site publicado.
+- Foi mantido referrerpolicy="strict-origin-when-cross-origin".
+- Arquivos .htaccess e _headers foram incluídos para hospedagens que usam Apache/Netlify/Cloudflare Pages.
+
+Importante: se abrir o HTML direto como arquivo local (file://) ou dentro de alguns previews/sandboxes, o YouTube pode continuar bloqueando por não receber um Referer HTTP real. Para o player funcionar dentro da página, publique em uma hospedagem HTTPS ou teste com servidor local:
+
+python -m http.server 8080
+
+Depois acesse:
+http://localhost:8080
