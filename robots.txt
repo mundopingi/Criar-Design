@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Depois de publicar, troque a URL abaixo pelo endereço real do seu site.
+Sitemap: https://seudominio.com.br/sitemap.xml
