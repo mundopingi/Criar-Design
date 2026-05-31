@@ -1,0 +1,16 @@
+CRIARDESIGN — VERSÃO LIMPA PARA GOOGLE ADS
+
+Arquivos incluídos:
+- index.html
+- assets/
+- robots.txt
+- sitemap.xml
+- headers
+
+IMPORTANTE:
+1. Publique o index.html junto com a pasta assets na raiz do site.
+2. Não envie apenas o index.html, pois as imagens estão na pasta assets.
+3. Troque https://seudominio.com.br/ no sitemap.xml pelo domínio real.
+4. Esta versão removeu imagens embutidas em Base64, scripts de redirecionamento e links externos de WhatsApp/Hotmart.
+5. Os vídeos permanecem incorporados no próprio site via player oficial do YouTube.
+6. Após publicar, reenvie a URL no Google Ads para revisão.
